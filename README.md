@@ -61,7 +61,7 @@ This Design Studio website is a visually engaging and fully responsive platform 
 >html code text-shadow and list style combine with tailwindcss
 ```bash
     <div class="pb-16">
-      <h3 class="text-xl font-bold drop-shadow-xl"> More Project Categories: </h3>
+      <h3 class="text-xl font-bold"> More Project Categories: </h3>
       <ul class="list-disc pl-8">
         <li><a class="hover:underline hover:text-blue-600" href="#">Kitchens & Dining Areas</a></li>
         <li><a class="hover:underline hover:text-blue-600" href="#">Living Rooms Inspirations</a></li>
@@ -71,6 +71,14 @@ This Design Studio website is a visually engaging and fully responsive platform 
         <li><a class="hover:underline hover:text-blue-600" href="#">Outdoor Spaces & Patios</a></li>
       </ul>
     </div>
+```
+>shadow  and list style code
+```bash
+  <ul class="list-disc pl-8">// list style use tailwindcss  list-disc
+
+  #shadowtext{
+    text-shadow: 1px 1px 2px var(--black);
+  }
 ```
 - Have responsive background image with cover size :
 ```bash
