@@ -1,5 +1,5 @@
-# A  Profile Website
-Wildlife Society, this is community blog dedicated to promoting environmental awareness and sustainable living website build with HTML and CSS. It includes sections for Home, About, Project, Team, Galery, and Contact.
+# A Interior Design Studio Profile Website
+This Design Studio website is a visually engaging and fully responsive platform built using HTML and CSS, designed to provide an intuitive and seamless user experience across all devices. It includes sections for Home, About, Project, Team, Galery, and Contact.
 
 ## Table of Contents
 1. [Introduction](#home)
@@ -10,7 +10,7 @@ Wildlife Society, this is community blog dedicated to promoting environmental aw
 6. [Contact Us](#contact)
 
 
-## Features of Wildlife Society Blog
+## Features of Design Studio Website
 1. User-Friendly Navigation with intuitive layout and design for easy browsing.
 2. Commenting System alow reader to leave comments and feedback.
 3. Galery about news and developments in wildlife conservation content.
@@ -28,16 +28,16 @@ Wildlife Society, this is community blog dedicated to promoting environmental aw
     ```
 2. Navigate to the project directory:
     ```bash
-    cd module-1-ferianai
+    cd module-2-ferianai
     ```
 3. Open the `index.html` file in your browser:
     ```bash
     open index.html
     ```
-4. **Image Folder** (img folder will located in the repository module-1-ferianai) to call it into html you can use " img/ " :
+4. **Image Folder** (img folder will located in the repository module-2-ferianai) to call it into html you can use " img/ " :
     ```bash
     
-    <img src="img/tiger-banner-web.jpg" alt="tiger">
+    <img class="w-full" src="img/banner-living01.png" alt="livingroom">
     ```
 
 ## Code
@@ -98,11 +98,35 @@ Wildlife Society, this is community blog dedicated to promoting environmental aw
 ![grid](/documentation/grid.png)
 
 
-- Animation with transition and animation method
+- Animation with transition and animation method.
+
+>animation code
+```bash
+.boxamination::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: var(--white);
+    box-shadow: 0 0 30px var(--black);
+    animation: animate 4s linear infinite;
+}
+```
+
+```bash
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+```
 
 
 ## 🔗 Links
-[![WildlifeSocietyWeb](/documentation/logo.png)](https://ferianai.github.io/WildlifeSociety/)
+[![Design](/documentation/logo.png)](https://ferianai.github.io/Mod02-home/)
 
 
 ## Page Overview applying Responsive Design with media query 
