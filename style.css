@@ -427,7 +427,7 @@ figcaption {
 .boxamination{
     margin-top: 20px;
     position: relative;
-    width: 90%;
+    width: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -446,12 +446,14 @@ figcaption {
     box-shadow: 0 0 30px var(--black);
     animation: animate 4s linear infinite;
 }
+
 .boxamination::after{
     content: "";
     position: absolute;
     inset: 10px;
     background-image: url(img/bg-about.png);
     background-position: center;
+    background-size: cover;
     border-radius: 30px;
 }
 
@@ -767,7 +769,7 @@ textarea{
     text-align: center;
     background-color: var(--lightgrey);
     border-radius: 10px;
-    margin-right: 30px;
+    margin-right: 50px;
     margin-bottom: 10px;
     color: var(--black);
     opacity: 60%;
