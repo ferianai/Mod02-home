@@ -277,18 +277,17 @@ label #cancel{
 }
 .readmore {
     width: 100%;
-    height: 400px;
-    background-image: url(img/history1.jpg);
+    height: 700px;
+    background-image: url(img/history0.png);
     background-size: cover;
     display: flex;
-    padding-right: 50px;
+    padding-right: 80px;
 }
-
 .history1{
-    width: 50px;
-    height: 400px;
+    width: 80px;
+    height: 700px;
     transition: width 2s;
-    background-image: url(img/history2.jpg);
+    background-image: url(img/history1.jpg);
     background-size: cover;
 }  
 .history1:hover{
@@ -296,10 +295,10 @@ label #cancel{
 }
 
 .history2{
-    width: 50px;
-    height: 400px;
+    width: 80px;
+    height: 700px;
     transition: width 2s;
-    background-image: url(img/history3.jpg);
+    background-image: url(img/history2.jpg);
     background-size: cover;
 }  
 .history2:hover{
@@ -307,10 +306,10 @@ label #cancel{
 }
 
 .history3{
-    width: 30px;
-    height: 300px;
+    width: 80px;
+    height: 700px;
     transition: width 2s;
-    background-image: url(img/history4.jpg);
+    background-image: url(img/history3.jpg);
     background-size: cover;
 }  
 .history3:hover{
@@ -339,6 +338,12 @@ label #cancel{
     height: 100%;
     width: 100%;
 }
+
+#shadowtext{
+    text-shadow: 1px 1px 2px var(--black);
+}
+
+
 
 /* project end */
 
