@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, css, javascript" />
+    <meta name="author" content="Ferianai" />
+    <meta name="description" content="Ann Building" />
+
+    <!-- tailwind core css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Studio Design Apa</title>
+
+    <!-- //Applying custom font using embed : Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body class="grid-container">
+    <!-- Header & Navbar Start-->
+    <header class="header" id="top-page">
+      <div class="container-header mx-auto px-15">
+        <nav class="nav mobile-container">
+          <input type="checkbox" id="check">
+          <label for="check" class="labelbar">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+          </label>
+          <a class="logo" href="#">
+            <i class="fa-solid fa-home"></i>DESIGN STUDIO
+          </a>
+          <div class="navbar">
+            <ul>
+              <li> <a href="#home">Home</a> </li>
+              <li> <a href="#about">About</a> </li>
+              <li> <a href="#project">Project</a> </li>
+              <li> <a href="#team">Team</a> </li>
+              <li> <a href="#galery">Galery</a> </li>
+              <li> <a href="#contact">Contact</a> </li>
+            </ul>          
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header & Navbar End --> 
+  
+    
+    <Main class="container mx-auto px-4">
+      <!-------Banner Start------->
+      <section class="container pb-32" id="home">
+        <picture>
+            <source class="w-full" media="(max-width: 400px)" srcset="img/banner-living01-hp.jpg" alt="livingroom" >
+            <source class="w-full" media="(max-width: 800px)" srcset="img/banner-living01-tablet.jpg" alt="livingroom" >
+            <img class="w-full" src="img/banner-living01.png" alt="livingroom">
+        </picture>
+        <ul class="banner-text">
+            <li class="banner-title">
+                <h1>HOME DESIGN STUDIO</h1>            
+            </li>
+            <li class="banner-content">
+                <p>Join us in preserving the rich diversity of our planet's wildlife! Every species plays a crucial role in our ecosystem!</p>
+            </li>       
+        </ul>
+      </section>
+      <!-------Banner End------->
+  
+      <!-------About Start------->
+      <section class="aboutpage pb-32" id="about">
+        <div class="container">
+          <div class="title-section">
+            <span class="line"></span>
+            <h2 class="text-2xl font-bold">About Us</h2>
+            <span class="line"></span>
+          </div>
+          <div class="about-content">
+            <div class="subcontent-about subcontent-about-mission">
+              <h3 class="text-xl font-bold drop-shadow-xl"> Mission & History</h3>
+              <p>At Protect Our Wildlife, our mission is to safeguard wildlife and their habitats through education, advocacy, and community engagement, inspiring collective action for a sustainable future. Founded in 2024 by passionate wildlife enthusiasts, we have evolved from a grassroots initiative into a dedicated organization focused on conservation, habitat restoration, and raising awareness about biodiversity. Together, we are making strides toward a healthier planet for all species.</p>
+            </div>
+            <div class="subcontent-about subcontent-about-challenge">
+              <h3 class="text-xl font-bold drop-shadow-xl">Wildlife Challenge</h3>
+              <p>Our planet faces urgent wildlife challenges, including habitat loss, climate change, pollution, and poaching. These threats endanger countless species and disrupt ecosystems. To protect our biodiversity, we must raise awareness, support conservation efforts, and take action to address these critical issues. Together, we can create a brighter future for wildlife and our planet.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------About End------->
+  
+      <!-------Project Start------->
+      <section class="pb-4" id="project"> 
+        <div class="container projectpage">
+          <div class="title-section">
+            <span class="line"></span>
+            <h2 class="text-2xl font-bold">What We Do</h2>
+            <span class="line"></span>
+          </div>
+          <div class="subcontent-project">
+            <h3 class="text-xl font-bold drop-shadow-xl">Programs & Projects</h3>
+            <p>Our programs and projects focus on wildlife conservation, habitat restoration, and community education. We engage in hands-on initiatives such as wildlife rescue, reforestation, and local outreach to promote sustainable practices. By partnering with communities and organizations, we aim to protect endangered species and foster a deep connection between people and nature. Join us in making a positive impact!</p>
+          </div>
+          <div class="pb-16">
+            <h3 class="text-xl font-bold drop-shadow-xl"> More Project Categories: </h3>
+            <ul class="list-disc pl-8">
+                <li><a class="hover:underline hover:text-blue-600" href="#">Kitchens & Dining Areas</a></li>
+                <li><a class="hover:underline hover:text-blue-600" href="#">Living Rooms Inspirations</a></li>
+                <li><a class="hover:underline hover:text-blue-600" href="#">Bedrooms</a></li>
+                <li><a class="hover:underline hover:text-blue-600" href="#">Bathrooms Oasis</a></li>
+                <li><a class="hover:underline hover:text-blue-600" href="#">Small Spaces & Studios</a></li>
+                <li><a class="hover:underline hover:text-blue-600" href="#">Outdoor Spaces & Patios</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-------Project End------->
+  
+      <!-------Team Start------->
+      <section class="teampage pb-32" id="team"> 
+        <div class="container">
+          <div class="title-section">
+            <span class="line"></span>
+            <h2 class="text-2xl font-bold">Meet Our Team</h2>
+            <span class="line"></span>
+            <p>Meet our dedicated team of wildlife enthusiasts and conservationists! We are passionate about protecting nature and committed to making a difference. Together, we strive to create a sustainable future for all living beings.</p>
+          </div>
+          <div class="team-content">
+            <div class="team-row">
+              <div class="team-image user1"></div><br>
+              <div class="team-name">
+                <h4>Allicia Kho</h4>
+                <h5>Marketing Specialist</h5>
+              </div>
+            </div>
+            <div class="team-row">
+              <div class="team-image user2"></div><br>
+              <div class="team-name">
+                <h4>David Sings</h4>
+                <h5>Wed Development</h5>
+              </div>
+            </div>
+            <div class="team-row">
+              <div class="team-image user3"></div><br>
+              <div class="team-name">
+                <h4>Johson White</h4>
+                <h5>CEO & Founder</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------Team End------->
+  
+      <!-------Galery Start------->
+      <section class="galerypage pb-32" id="galery"> 
+        <div class="container">
+          <div class="title-section">
+            <span class="line"></span>
+            <h2 class="text-2xl font-bold">Find The Galery</h2>
+            <span class="line"></span>
+            <p>Stay updated with our latest news and developments in wildlife conservation! From successful rescue stories to upcoming events and initiatives, this section highlights our ongoing efforts and the impact of our work. Join us in celebrating milestones and learning about ways you can get involved in protecting our planet's wildlife!</p>
+          </div>
+          <h3 class="text-xl font-bold drop-shadow-xl">Living Galery :</h3><br>
+          <div class="galery-content">
+            <figure class="galery-item1 galery-img-con">
+              <img src="img/galery1.jpg" alt="galery1" class="galery-img">
+              <figcaption>Landscaping Ideas for Front of House</figcaption>
+            </figure>
+            <figure class="galery-item2 galery-img-con">
+              <img src="img/galery2.jpg" alt="galery2" class="galery-img">
+              <figcaption>Freshly Manicured Lawn</figcaption>
+            </figure>
+            <figure class="galery-item3 galery-img-con">
+              <img src="img/galery3.jpg" alt="galery3" class="galery-img">
+              <figcaption>Entryway Plants & Décor</figcaption>
+            </figure>
+            <figure class="galery-item4 galery-img-con">
+              <img src="img/galery4.jpg" alt="galery4" class="galery-img">
+              <figcaption>Landscaping Ideas for Backyard</figcaption>
+            </figure>
+            <figure class="galery-item5 galery-img-con">
+              <img src="img/galery5.jpg" alt="galery5" class="galery-img">
+              <figcaption>Landscaping Ideas for Home</figcaption>
+            </figure>
+            <figure class="galery-item6 galery-img-con">
+              <img src="img/galery6.jpg" alt="galery6" class="galery-img">
+              <figcaption>Landscaping Ideas for Backyard</figcaption>
+            </figure>
+          </div>
+          <div class="contenhistory">
+            <h3 class="text-xl font-bold drop-shadow-xl">Home Galery:</h3><br>
+            <div class="readmore">
+              <div class="history1"></div>
+              <div class="history2"></div>
+              <div class="history3"></div>
+            </div>
+          </div>
+          <div class="boxamination"></div>
+        </div>
+      </section>
+      <!-------Galery End------->    
+  
+      <!-------Contact Start------->
+      <section class="contactpage pb-32" id="contact">
+        <div class="container">
+          <div class="title-section">
+            <span class="line"></span>
+            <h2 class="text-2xl font-bold">Contact Us</h2>
+            <span class="line"></span>
+            <p>We’d love to hear from you! Whether you have questions, want to get involved, or need more information about our programs, feel free to reach out. You can contact us via email, phone, or by filling out the form below. Together, we can make a difference for wildlife and their habitats!</p>
+          </div>
+          <div class="contact-section">
+            <div class="container-form">
+              <!-- Form Set Start-->
+              <form class="contact-form" action="/api/server" method="post">
+  
+                <!-- input text type -->
+                <div class="textinput">
+                  <input type="text" id="name" name="name"  placeholder="Full Name" required>
+                  <input type="email" id="email" name="email" placeholder="Email" required> 
+                </div>
+  
+                <!-- Textarea -->
+                <div class="textterainput">
+                  <textarea id="message" name="message" placeholder="write your message"></textarea>
+                </div>
+                
+                <!-- Select Button -->
+                <div class="selectbutton">
+                  <label for="gender">Gender:</label>
+                  <select class="genderbutton" id="gender" name="gender" >
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="NA">Don't want to tell</option>
+                  </select>
+                </div>
+  
+                <!-- Radio buttons -->
+                <div class="radiobutton">
+                  <br>Please Select Your Age:<br>
+                  <input type="radio" name="age" id="young" value="30">
+                  <label for="young">0 - 30</label><br>
+                  <input type="radio" name="age" id="adult" value="60">
+                  <label for="adult">31 - 60</label><br>
+                  <input type="radio" name="age" id="oldperson" value="100">
+                  <label for="oldperson">60 - 100</label>
+                </div>
+  
+                <!-- Check Box -->
+                <div class="checkbox">
+                  <br>Select Your Preferred Environment:<br>
+                  <input type="checkbox" name="environment" id="environment" value="Urban">
+                  <label for="environment">Urban</label><br>
+                  <input type="checkbox" name="environment" id="environment" value="Suburban">
+                  <label for="environment">Suburban</label><br>
+                  <input type="checkbox" name="environment" id="environment" value="Rural">
+                  <label for="environment">Rural</label><br>
+                  <input type="checkbox" name="environment" id="environment" value="Mountain">
+                  <label for="environment">Mountain</label><br>
+                  <input type="checkbox" name="environment" id="environment" value="Coastal">
+                  <label for="environment">Coastal</label><br>
+                  <input type="checkbox" name="environment" id="environment" value="Desert">
+                  <label for="environment">Desert</label><br><br>
+                </div>
+  
+                <!-- Submmit and Reset Button -->
+                <div class="submit-button">
+                  <input class="btnsubmit reset" type="reset" value="Reset">
+                  <input class="btnsubmit submit" type="submit" value="Submit">
+                </div>
+              </form>
+              <!-- Form Set End-->
+            </div>
+            <div class="contact-info">
+              <div class="contactitem"><i class="fa fa-map-marker-alt"></i>
+                <div class="media-body">
+                  <p>Indonesia, Surabaya</p>
+                </div>
+              </div>
+              <div class="contactitem"><i class="fa fa-mobile"></i>
+                <div class="media-body">
+                  <p><a href="tel:+62560000000">+62822225577</a></p>
+                </div>
+              </div>
+              <div class="contactitem"><i class="fa fa-envelope"></i>
+                <div class="media-body">
+                  <p><a class="text-white" href="mailto:saveeee@gmail.com">info.design@designstudio.com</a></p>
+                </div>
+              </div>
+              <div class="contactitem"><i class="fa fa-clock"></i>
+                <div class="media-body">
+                  <p>Mon-Fri 9.00 AM to 4.00PM.</p>
+                </div>
+              </div>
+              <div class="mapouter">
+                  <div class="gmap_canvas">
+                      <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Surabaya&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------Contact End------->
+    </Main>
+    
+    <footer class="footer container mx-auto p-16">
+      <div class="container">
+        <div class="footersocial">
+          <a class="social-link" href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a class="social-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="social-link" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="px=4"> Copyright &copy; designstudio.com Website Designed by <a href="https://ferianai.github.io/WildlifeSociety/">ferianai</a> 2024</p>
+      </div>
+    </footer>
+  
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top" href="#home">
+        <i class="fas fa-angle-up"></i>
+    </a>
+  </body>
+</html>
