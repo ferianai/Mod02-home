@@ -209,7 +209,7 @@ Feel free to explore the site, and reach out with any inquiries or feedback!
 
 ### Repository Links:
 - **GitHub Repository**: [GitHub Repository URL](https://github.com/ferianai/Mod02-home)
-- **Niagahoster Domain**: [Niagahoster](https://omae.site/)
+- **Niagahoster Domain**: [https://omae.site](https://omae.site/)
 
 ---
 
